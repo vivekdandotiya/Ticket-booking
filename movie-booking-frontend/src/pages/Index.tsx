@@ -128,7 +128,7 @@ const Index: React.FC = () => {
 
         {/* Promo Discount Advertising Bar */}
         {!searchQuery && !selectedGenreFilter && (
-          <div className="p-4 bg-gradient-to-r from-red-600/20 via-primary/10 to-transparent border border-primary/20 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm relative overflow-hidden group">
+          <div className="p-4 bg-gradient-to-r from-primary/15 via-primary/5 to-transparent border border-primary/20 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm relative overflow-hidden group">
             <div className="absolute top-0 right-0 h-40 w-40 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 bg-primary rounded-xl flex items-center justify-center text-white shrink-0 shadow-md">
