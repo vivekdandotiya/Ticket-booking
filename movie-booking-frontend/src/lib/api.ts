@@ -26,7 +26,7 @@ const saveLocalData = (key: string, data: any) => {
 
 const executeMockRequest = async (method: string, endpoint: string, body?: any): Promise<any> => {
   // Simulate network latency
-  await new Promise((resolve) => setTimeout(resolve, 300));
+  await new Promise((resolve) => setTimeout(resolve, 10));
 
   const urlParts = endpoint.split("?")[0].split("/").filter(Boolean);
   const searchParams = new URLSearchParams(endpoint.split("?")[1] || "");
