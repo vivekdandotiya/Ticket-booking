@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import HeroCarousel from "../components/HeroCarousel";
 import MovieSection from "../components/MovieSection";
